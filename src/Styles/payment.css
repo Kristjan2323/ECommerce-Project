@@ -1,0 +1,76 @@
+/* Payment.css */
+.payment-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .card-element-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .additional-fields {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .additional-fields label {
+    font-size: 16px;
+  }
+  
+  .additional-fields input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .additional-fields input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+  }
+  
+  .top-container{
+    display: flex;
+  }
+
+  .cancel-payment-icon{
+    margin-left: auto;
+    margin-top: 7px;
+    color: red;
+    font-size: 20px;
+  }
+  
+  .cancel-payment-icon:hover{
+    transform:scale(1.1,1.1)
+  }
+
+  .pay-button {
+    background-color: #3b82f6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+    margin-top: 5px;
+  }
+  
+  .pay-button:hover {
+    background-color: #2563eb;
+  }
+  

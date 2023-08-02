@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+
+.products-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.app-conainter{
+  margin: 10px;
+}
+
+.hero-banner-container{
+  margin-top: 50px;
+}
+.hero-banner-tittle{
+  margin-top: 40px;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(37, 37, 95);
+  font-weight: 700;
+}
+
+   
+.horizontal-line {
+  height: 0.5px;
+  background-color: rgb(86, 51, 191);
+  margin: 10px 0; /* Optional: adjust margin as per your requirements */
+  text-align: center;
+  width: 80%;
+  justify-content: center;
+  justify-self: center;
+}
+

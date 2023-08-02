@@ -1,0 +1,100 @@
+
+.fb-container{
+    display: flex;
+    padding: 100px 40px;
+  background-color: #f02d34;
+  border-radius: 15px;
+  position: relative;
+  height: 300px;
+  line-height: 1; 
+  color: white;
+  width: 100%;
+  margin-top: 120px;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fb-image{
+   
+    width: 250px;
+    height: 200px;
+    background: none;
+   
+  
+}
+
+.fb-left-conatiner{
+    padding: 1px;
+  
+    align-self: start;
+}
+
+.fb-offSale{
+    margin-top: -20px;
+    margin-bottom: 20px;
+   
+}
+
+.fb-Moto{
+margin-left: 10px;
+font-size: 45px;
+font-weight: 800;
+}
+
+.fb-TillDate{
+    margin-top: 35px;
+}
+
+.fb-middle-container{
+ align-self: center;
+ margin-left: 25px;
+}
+
+.fb-right-container{
+ display: grid;
+ margin-left: 30px;
+}
+.fb-right-moto{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.fb-season{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 2000;
+}
+
+.fb-description{
+    font-style: italic;
+}
+
+.fb-button{
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+    justify-items: center;
+    margin-top: 10px;
+    width: 100px;
+    color: #f02d34;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.fb-button:hover{
+    background-color: rgb(40, 40, 42);
+}
+.start {
+    order: 1; /* Adjust order based on desired position */
+  }
+  
+  .middle {
+    order: 2; /* Adjust order based on desired position */
+  }
+  
+  .end {
+    order: 3; /* Adjust order based on desired position */
+  }

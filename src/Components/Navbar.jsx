@@ -33,15 +33,12 @@ const showNav = () => {
                 <Link to='/product/category/monitor'> <a onClick={showNav}>Monitors</a></Link>   
                 <Link to='/product/category/accessories'> <a onClick={showNav}>Accessories</a></Link>  
                 <Link to ='/product/category/all'>  <a onClick={showNav}>All Products</a></Link>    
-       
-      
-     
-         
+              
             <a className='searchMain'>
             
            <FaSearch/>
        <input className='searchBox' type="text" 
-       placeholder = "What are u looking for" />
+       placeholder = "What are u looking for " />
        </a>
      
        <a className='cartIcon' onClick={handleShowCart}>< FaShoppingCart/> <span className="cartCount">{qty}</span> </a>

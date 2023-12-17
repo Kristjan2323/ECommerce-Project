@@ -8,15 +8,13 @@ Layout,Cart } from '../Components';
 
 
 
-
 function Home() {
  
 
   const [products, setProducts] = React.useState([])
   const [heroBanner,setHeroBanner] = React.useState([])
 
-
-
+  
   React.useEffect(() => {
       const getServerSideData = async () => {
         const query = '*[_type=="product"]';
@@ -45,25 +43,19 @@ function Home() {
 
 
        <div className='app-conainter' >
-     
-     
-     
-   
-   
+      
        {herBannerElement}
      
         <div className='hero-banner-container'>
       
         <h1 className='hero-banner-tittle'>Most saled products</h1>
         <div className='products-container '>
+          
           {productElement}
           </div>
-        </div>
-      
-     
+        </div>    
         <FooterBanner/>
-   
-    
+     
     </div>
  
   );
